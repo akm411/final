@@ -1,0 +1,54 @@
+#container {
+    width: 1200px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px solid black;
+}
+
+/* Ah */
+	.alphabet {
+		display: block;
+		width: 200px;
+		height: 200px;
+		float: left;
+		/* transition-property: background-position;
+		transition-duration: 2s;
+		transition-timing-function: cubic-bezier(.1, .9, .9, .5);
+		-webkit-transition-timing-function: cubic-bezier(.1, .9, .9, .5);
+		//ease for slowing beginning and end ease-in for slowing beginning only ease-out for slowing end only cubic-bezier(.1, .9, .9, .5)  is full control start-middle-middle-end
+		transition-delay: 250ms;
+		-webkit-transition-delay: 250ms; */
+		transition: all 1s ease 250ms;
+	}
+
+	.alphabet:hover {
+	background-position: -200px 0;
+	}
+
+	#ah {
+		background-image: url(a.png);
+	}
+	#b {
+		background-image: url(a.png);
+	}
+	#c {
+		background-image: url(a.png);
+	}
+	#d {
+		background-image: url(a.png);
+	}
+	#e {
+		background-image: url(a.png);
+	}
+	#f {
+		background-image: url(a.png);
+	}
+	#g {
+		background-image: url(a.png);
+	}
+
+
+
